@@ -1,0 +1,42 @@
+<decorators defaultdir="/WEB-INF/views/layouts">
+	<decorator name="UserLayout" page="user.jsp">
+		<pattern>/*</pattern>
+	</decorator>
+	<decorator name="AccountLayout" page="Account.jsp">
+		<pattern>/Login</pattern>
+	</decorator>
+	<decorator name="AccountLayout" page="Account.jsp">
+		<pattern>/Register</pattern>
+	</decorator>
+	<decorator name="AccountLayout" page="Account.jsp">
+		<pattern>/Cart</pattern>
+	</decorator>
+	<decorator name="AccountLayout" page="Account.jsp">
+		<pattern>/Checkout</pattern>
+	</decorator>
+	<decorator name="AccountLayout" page="Account.jsp">
+		<pattern>/Checkout2</pattern>
+	</decorator>
+	<decorator name="AdminLayout" page="admin.jsp">
+		<pattern>/QLTK</pattern>
+	</decorator>
+	<decorator name="AdminLayout" page="admin.jsp">
+		<pattern>/BillsAoCuoi</pattern>
+	</decorator>
+	<decorator name="AdminLayout" page="admin.jsp">
+		<pattern>/BillsAnhCuoi</pattern>
+	</decorator>
+	<decorator name="AdminLayout" page="admin.jsp">
+		<pattern>/BillsAoCuoi/*</pattern>
+	</decorator>
+	<decorator name="AdminLayout" page="admin.jsp">
+		<pattern>/BillsAnhCuoi/*</pattern>
+	</decorator>
+	<decorator name="AdminLayout" page="admin.jsp">
+		<pattern>/EditUsers</pattern>
+	</decorator>
+	<decorator name="AdminLayout" page="admin.jsp">
+		<pattern>/EditUsers/*</pattern>
+	</decorator>
+	
+</decorators>
